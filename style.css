@@ -134,6 +134,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     }
 
 .quote-text{
@@ -141,7 +142,7 @@ a{
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
-    width: 800px;
+    width: 700px;
     margin: 0;
 }
 
@@ -150,4 +151,48 @@ a{
     font-weight: bold;
     align-self: flex-end;
     margin-right: 20px; 
+    
     }
+
+
+/*-----ACTION-----*/
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container{
+    display: flex;
+    margin: 100px 0;
+    background-color: #3882f6;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    width: 1000px;
+    justify-content: space-around;
+}
+
+.action-header{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.action-subtext{
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.action-signup{
+    border: solid 2px #f9faf8;
+    border-radius: 10px;
+    align-self: center;
+    padding: 10px 25px; 
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
